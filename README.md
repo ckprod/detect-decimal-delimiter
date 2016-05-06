@@ -29,7 +29,7 @@ Finding the decimal delimiter of a formatted number is in general not possible. 
 But there are many formatted numbers where the decimal delimiter can be identified correctly, e.g. '123,456,789', '1234.56' or '12,345.6'. If we have a bunch of homogen data (like a csv file), 
 there is a chance of automatically the decimal delimiter.
 
-According to languages.js from numbro (https://github.com/foretagsplatsen/numbro) the following combination of possible delimiters exit:
+According to languages.js from numbro (https://github.com/foretagsplatsen/numbro) the following combinations of possible delimiters exit:
 - ' ' and ',' e.g. hu-HU
 - '.' and ',' e.g. de-DE
 - ',' and '.' e.g. en-GB
