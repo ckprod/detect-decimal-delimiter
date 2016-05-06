@@ -7,7 +7,9 @@
   "author": "irhc",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^3.8.6"
+  },
   "scripts": {
     "test": "mocha"
   },
