@@ -21,7 +21,7 @@ console.log(detectDecimalDelimiter(['1,234.567']));
 ```html
 npm install detect-decimal-delimiter
 ```
-Current version should work with all Node.js versions, at least with version 0.10 and above.
+Current version should work with Node.js version 4.0 and above.
 
 ###Description
 
