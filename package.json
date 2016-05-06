@@ -1,0 +1,17 @@
+{
+  "name": "detect-decimal-delimiter",
+  "description": "Detect decimal delimiter of formatted numbers",
+  "maintainers": "irhc",
+  "homepage": "https://github.com/irhc/detect-decimal-delimiter",
+  "version": "1.0.0",
+  "author": "irhc",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "keywords": ["detect", "formatted numbers", "decimal"],
+  "engines": { "node": ">= 0.10.0" }
+}
