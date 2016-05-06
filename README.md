@@ -36,6 +36,7 @@ According to languages.js from numbro (https://github.com/foretagsplatsen/numbro
 - ',' and '.' e.g. en-GB
 - '?' and '.' e.g. fa-IR
 - '\'' and  '.' e.g. fr-CH
+
 So for the decimal delimiter there are only two possibilities: ',' and '.'.
 
 If the answer is not clear, the function will return 'ambiguous'.
