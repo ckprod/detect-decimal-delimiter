@@ -25,20 +25,20 @@ Current version should work with Node.js version 4.0 and above.
 
 ###Description
 
-Finding the decimal delimiter of a formatted number is in general not possible. Take for example the numbers '123,456' or '456.789', either seperator (',' or '.') can be the decimal delimiter.
+Generally, finding the decimal delimiter of a formatted number is not possible. Take for example the numbers '123,456' and '456.789', either seperator (',' or '.') can be the decimal delimiter.
 But there are many formatted numbers where the decimal delimiter can be identified correctly, e.g. '123,456,789', '1234.56' or '12,345.6'. If we have a bunch of homogen data (like a csv file), 
-there is a chance of automatically the decimal delimiter.
+there is a chance of automatically finding the decimal delimiter.
 
-According to languages.js from numbro (https://github.com/foretagsplatsen/numbro) the following combinations of possible delimiters exit:
+According to languages.js from numbro (https://github.com/foretagsplatsen/numbro) the following combinations of possible delimiters do exist:
 - ' ' and ',' e.g. hu-HU
 - '.' and ',' e.g. de-DE
 - ',' and '.' e.g. en-GB
 - '?' and '.' e.g. fa-IR
 - '\'' and  '.' e.g. fr-CH
 
-So for the decimal delimiter there are only two possibilities: ',' and '.'.
+The list shows that there are only two possibilities for the decimal delimiter: ',' and '.'.
 
-If the answer is not clear, the function will return 'ambiguous'.
+If the decimal delimiter cannot be identified, the function will return 'ambiguous'.
 The function will process the input until the first definite answer can be given.
 
 ###References
