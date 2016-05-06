@@ -1,5 +1,4 @@
 # detect-decimal-delimiter
-==========================
 
 [![Build Status](https://travis-ci.org/irhc/detect-decimal-delimiter.png?branch=master)](https://travis-ci.org/irhc/detect-decimal-delimiter)
 

@@ -31,6 +31,8 @@
                 let decimal = _detectDecimalDelimiter(input);
                 if (decimal !== 'ambiguous') return decimal;
             }
+			
+			return 'ambiguous';
         }
         
         return _detectDecimalDelimiter(data)
