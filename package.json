@@ -1,10 +1,10 @@
 {
   "name": "detect-decimal-delimiter",
   "description": "Detect decimal delimiter of formatted numbers",
-  "maintainers": "irhc",
+  "maintainers": "irhc <irhc@openmailbox.org>",
   "homepage": "https://github.com/irhc/detect-decimal-delimiter",
   "version": "1.0.0",
-  "author": "irhc",
+  "author": "irhc <irhc@openmailbox.org>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
