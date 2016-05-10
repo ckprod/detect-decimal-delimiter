@@ -1,4 +1,4 @@
-# detect-decimal-delimiter
+﻿# detect-decimal-delimiter
 
 [![Build Status](https://travis-ci.org/irhc/detect-decimal-delimiter.png?branch=master)](https://travis-ci.org/irhc/detect-decimal-delimiter)
 
@@ -33,7 +33,7 @@ According to languages.js from numbro (https://github.com/foretagsplatsen/numbro
 - ' ' and ',' e.g. hu-HU
 - '.' and ',' e.g. de-DE
 - ',' and '.' e.g. en-GB
-- '?' and '.' e.g. fa-IR
+- '،' and '.' e.g. fa-IR
 - '\'' and  '.' e.g. fr-CH
 
 The list shows that there are only two possibilities for the decimal delimiter: ',' and '.'.
