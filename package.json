@@ -14,6 +14,16 @@
     "test": "mocha"
   },
   "main": "index.js",
-  "keywords": ["detect", "formatted numbers", "decimal"],
-  "engines": { "node": ">= 4.0" }
+  "keywords": [
+    "detect",
+    "formatted numbers",
+    "decimal"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "repository": {
+    "type": "svn",
+    "url": "https://github.com/irhc/detect-decimal-delimiter"
+  }
 }
