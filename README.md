@@ -6,7 +6,7 @@ Detect decimal delimiter of formatted numbers. The input can be a string of a we
 
 ###Usage
 
-```html
+```javascript
 // A simple echo program:
 var detectDecimalDelimiter = require('detect-decimal-delimiter');
 
@@ -18,7 +18,7 @@ console.log(detectDecimalDelimiter(['1,234.567']));
 
 ###Node.js Installation
 
-```html
+```javascript
 npm install detect-decimal-delimiter
 ```
 Current version should work with Node.js version 4.0 and above.
