@@ -1,5 +1,7 @@
 ﻿# detect-decimal-delimiter
 
+[![NPM version](http://img.shields.io/npm/v/detect-decimal-delimiter.svg)](https://www.npmjs.org/package/detect-decimal-delimiter)
+![](https://img.shields.io/badge/dependencies-none-brightgreen.svg)
 [![Build Status](https://travis-ci.org/irhc/detect-decimal-delimiter.png?branch=master)](https://travis-ci.org/irhc/detect-decimal-delimiter)
 
 Detect decimal delimiter of formatted numbers. The input can be a string of a well formatted number or a (nested) array of strings.
